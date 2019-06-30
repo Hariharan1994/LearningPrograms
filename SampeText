@@ -150,3 +150,83 @@ Q. 15) Find the 1st non-repeated characters in the given string. (simple categor
 
 Input    : *IVTL INFOVIEW*
 Output : *T*
+
+
+Q. 16) Find the no.of vowels in the given string
+(simple category)
+
+Input    : *abcde*
+Output : *2*
+
+_________
+
+Q. 17) Find the word which have *more vowels*
+
+Input : i like java programming
+Output : *programming*
+
+Q. 18) Find product of two 3x3 matrices
+
+Input
+1 4 7       9 6 3       *9 24 21*
+2 5 8   x  8 5 2  =   *16 25 16*
+3 6 9       7 4 1      *21 24 9*
+
+
+Q. 19) addition of 2 matrices
+
+Q. 20) difference of 2 matrices
+
+
+Q. 21) Find the Transpose of given matrix
+
+Input :             *Output*:
+1 2 3                 *1 4 7*
+4 5 6                 *2 5 8*
+7 8 9                 *3 6 9*
+
+
+Q. 22) Swap 2 numbers without using third or temp variable
+
+Input     :    a = 10   b = 20
+Output :   *a = 20   b = 10*
+
+Q. 23) Print String within double quotes...
+(simple category) 
+
+Output :  *"IVTL Infoview"*
+
+
+Q. 24) Check 2 numbers are equal *without* using arithmetic operator...
+
+Logic : 
+*int x = 10;*
+*int y = 10;* 
+*if ( !(x ^ y) )* equal
+
+
+Q. 25) Find maximum and  minimum of 2 numbers without using any loop or condition.
+
+Logic :
+Max = ((a + b) + abs(a - b)) / 2
+
+Min = ((a + b) - abs(a - b)) / 2
+
+Q. 26) Find the sum of two integers *without* using ‘+’ operator.
+(simple category)
+
+Logic :
+*int sum = -( -a-b )*;
+
+Q. 27) Find the sum of squares of the given number. 
+
+Logic :
+     while(n != 0)
+    	{
+        	remainder = n%10;
+        	sum += remainder;
+        	n = n/10;
+    	}
+
+
+Q. 28) Find exponential without using *pow()* method.
