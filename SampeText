@@ -1,0 +1,152 @@
+Q. 1) Finding whether the given String is *Balanced Pair* or *Not*
+
+If *Yes*, need to print the count of pairs. 
+
+()      - YES 1
+({[]}) - YES 3
+({[}]) - NO
+
+
+Q. 2) Find the difference between the smallest largest prime numbers between the two given numbers.
+
+input    :    1 and 10
+output :    5
+
+Logic :
+prime numbers between 1 to 10 are
+*2, 3, 5, 7*
+largest - smallest = 7 - 2 = *5*
+
+
+
+Q. 3) Find the *SUPER ASCII* of the given String.
+
+A string is said to be super ASCII, if the ASCII Value of character is equal to the number of occurrence.
+
+Note : ASCII a=1, b=2,....z=26
+
+Input : *bba*
+Output : *Yes*
+
+Logic :
+ascii of b = 2...
+2 times b available..
+
+ASCII of a = 1
+1 times a available
+
+
+Input : cbba
+Output : *No*
+
+
+
+Q. 4) SORT THE LIST WITHOUT USING *Array.sort()*
+
+Input : {5, 9, 3, 6, 2, 8, 7, 10, 1, 4}
+
+Output : {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+
+Q. 5) Remove the duplicate elements / Find the unique elements
+
+Input  {1,1,2,2,2,5,6,3,2,1,5,4,3,2,4}
+
+Output
+{1, 2, 3, 4, 5, 6}
+
+
+Q. 6) Reverse a number without converting to any other datatype (simple category)
+
+Input : 6789
+Output 9876
+
+Note : need to perform using mathematical calculation
+
+
+Q. 7) Find all the permutations of 3 letter word.
+
+Input : GOD
+Output :
+GOD, GDO,
+OGD, ODG,
+DGO, DOG
+
+
+Q. 8) Find whether the given string is Palindrome or Not
+
+
+Input : MALAYALAM
+Output : Yes
+
+Other Palindromes
+ DAD, MUM,
+MADAM, LEVEL, REFER
+RACECAR,
+ ROTATOR,
+
+Q. 9) find out the *given Sentence* is Palindrome or Not.
+
+Input : *Satck Cats*
+Output : Yes
+
+Input : *I know Malayalam*
+Output : No
+
+__________
+£g :
+1. So many Dynamos
+2. Step on no pets
+3. No lemon no melon
+4. Yo banana boy
+
+Q. 10) Find out the largest palindrome in the given Sentence.
+
+Input : My *MUM* ask me to complete my homework in *MALAYALAM* but I am watching the *RACECAR* in television and so I gets scolded from my *DAD*..
+
+Output : MALAYALAM - *9*
+
+Q. 11) Find the character which has the most occurrence in the given String input
+(simple category)
+
+Input    :  Chennai
+Output :  *n* 2 times
+
+
+Q. 12) Find whether the 2 given string is *ANAGRAM* or Not..
+
+Input : *SILENT* and *LISTEN*
+Output : YES
+_____
+Logic : all the characters in SILENT is available in LISTEN
+________
+
+Input : *IVTL Infoview* and *Infoview*
+Output : No
+________
+£g : (other ANAGRAM words)
+TRIANGLE and INTEGRAL
+
+
+Q.13)  Find the unique characters in the given string (simply category)
+
+Input    : *IVTL Infoview*
+Output : T, L, n, f, o, i, e, w
+
+
+Q.14) Find the missing numbers between the given range.
+
+Input   : {1, 2, 4, 5, 7, 9, 10}
+Output : {3, 6, 8}
+
+____
+Note :
+1. Input will always be in increasing order
+2. First number will be series start
+3. Last number will be the series end
+
+
+Q. 15) Find the 1st non-repeated characters in the given string. (simple category)
+
+Input    : *IVTL INFOVIEW*
+Output : *T*
